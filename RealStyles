@@ -8,18 +8,18 @@
 	font-family: 'Gochi Hand', cursive;
 
 	font-family: 'Amatic SC', cursive;
-font-family: 'Poiret One', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Cabin Sketch', cursive;
-font-family: 'Marcellus SC', serif;
-font-family: 'Gruppo', cursive;
-font-family: 'Love Ya Like A Sister', cursive;
-font-family: 'Nixie One', cursive;
-font-family: 'Graduate', cursive;
-font-family: 'Pompiere', cursive;
-font-family: 'Londrina Outline', cursive;
-font-family: 'Megrim', cursive;
-font-family: 'UnifrakturMaguntia', cursive;
+	font-family: 'Poiret One', cursive;
+	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Marcellus SC', serif;
+	font-family: 'Gruppo', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Nixie One', cursive;
+	font-family: 'Graduate', cursive;
+	font-family: 'Pompiere', cursive;
+	font-family: 'Londrina Outline', cursive;
+	font-family: 'Megrim', cursive;
+	font-family: 'UnifrakturMaguntia', cursive;
 	*/
 
 
@@ -32,12 +32,12 @@ body {
 	padding-top: 0px;
 	line-height: 1.3;
 	text-align: center;
-}
+	}
 
 
-a {
-	text-decoration: none;
-}
+	a {
+			text-decoration: none;
+			}
 
 
 		/*Sizing & Transition*/
@@ -57,10 +57,7 @@ a {
 		  transition: all 1s ease;
 		}
 
-
-
-
-
+	
 #myinput {
   background-image: url('/css/searchicon.png');
   background-position: 5px;
@@ -68,7 +65,6 @@ a {
   width: 100%;
   font-size: 16px;
 }
-
 
 
 #top {
@@ -79,11 +75,9 @@ a {
 
 
 
-
 /*
 REFERRALS
 */
-
 
 		.off {
 			max-width: 90px;
@@ -111,12 +105,9 @@ REFERRALS
 }
 
 
-
 /*
 VOCABULARY
 */
-
-
 .dx {
 	background-color: yellow;
 }
@@ -134,7 +125,6 @@ VOCABULARY
 /*
 EXTENSION DEPARTMENT COLOR KEY
 */
-
             .fd{
                 background: linear-gradient(to bottom, #ccff66 0%, #66ff66 100%);
             }
@@ -208,7 +198,7 @@ nav {
 	min-width: 100%;
 	text-align: center;
 
-	transition: top 0.5s; 
+	transition: top 0.3s; 
 	/* Transition effect when sliding down (and up) */
 	}
 
@@ -310,6 +300,7 @@ table {
 				padding: .8%;
 				border: grey solid 1 px;
 			/*	background-color: rgba(255, 255, 255, 5); */
+              	letter-spacing: 1px;
 			}
 
 
@@ -327,11 +318,7 @@ table {
 					white-space: nowrap;
 					font-family: 'Special Elite', cursive;
 					 letter-spacing: 1px;
-		}
-
-		th:nth-child(6) {
-					 letter-spacing: 1px;
-			}
+					}
 
 
 .nohov {
@@ -363,7 +350,7 @@ h1, h2, h3, h4, h5, h6  {
 	text-align: center;
 	display: block;
 	font-weight: bold;
-}
+	}
 
 		h1 {
 			font-size: 6vw;
@@ -374,25 +361,23 @@ h1, h2, h3, h4, h5, h6  {
 			/*background-color: liniargradient(  */
 
 			color: white;
-		  text-shadow: 8px 15px 18px #000000;
-		}
+			text-shadow: 8px 15px 18px #000000;
+			}
 
 		h2 {
 			font-family: 'Londrina Outline', cursive;
-		/*font-family: 'Megrim', cursive;
-		font-family: 'UnifrakturMaguntia', cursive; */
+			/*font-family: 'Megrim', cursive;
+			font-family: 'UnifrakturMaguntia', cursive; */
+			font-size: 5vw;
+			margin-bottom: -10%;
+			}
 
-		font-size: 5vw;
-		margin-bottom: -10%;
 
+
+
+	ul {
+		column-count: 2;
 		}
-
-
-
-
-ul {
-	coloumn-count: 2;
-}
 
 
 
