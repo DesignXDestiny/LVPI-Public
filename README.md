@@ -1,6 +1,9 @@
 # LVPI-Public
 Las Vegas Pain Institute Directory
+* auto-gen TOC:
+{:toc}
 
+- [What?] (##What?)
 
 ## What?
 LVPI  - Public is a Directory of information for navigating and expediting workflow.  These are resources all LVPI personnel should have access to. 
